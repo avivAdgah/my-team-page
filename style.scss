@@ -1,0 +1,61 @@
+@mixin myPhotos{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    margin-bottom: 3em;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .avatar{
+        .photos{
+            height: 25em;
+            width: 20em;
+            @include myPhotos();
+        }
+        .photo1{
+            background-image: url('images/photo1.png');
+        }
+        .photo2{
+            background-image: url('images/photo2.png');
+        }
+        .photo3{
+            background-image: url('images/photo3.png');
+        }
+        .photo4{
+            background-image: url('images/photo4.png');
+        }
+        .photo5{
+            background-image: url('images/photo5.png');
+        }
+        .photo6{
+            background-image: url('images/photo6.png');
+        }
+        .avatar-name{
+            text-align: center;
+            font-family: sans-serif;
+        }
+    }
+    
+}
+footer{
+    text-align: center;
+    font-family: monospace;
+    color: darkgray;
+}
+
+@media screen and (min-width: 990px) {
+    .photo2{
+        margin-top: 5em;
+    }
+    .photo5{
+        margin-top: 5em;
+    }
+  }
