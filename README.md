@@ -14,4 +14,4 @@
 - [html](http://html.net/)
 - [Sass](https://sass-lang.com/)
 ### Link 
- [Demo App](https://enchanting-torte-23f788.netlify.app/)
+ [Demo App](https://my-team-page.netlify.app/)
